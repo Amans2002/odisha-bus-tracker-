@@ -1,0 +1,79 @@
+{
+  "routes": [
+    {
+      "id": 1,
+      "name": "Route 1 - KIIT to Patapur",
+      "stops": [
+        { "id": 1, "name": "KIIT Square", "km": 0, "lat": 20.3519, "lng": 85.8158 },
+        { "id": 2, "name": "Patia Square", "km": 1.2, "lat": 20.3468, "lng": 85.8089 },
+        { "id": 3, "name": "Nandankanan Rd", "km": 2.8, "lat": 20.3398, "lng": 85.8001 },
+        { "id": 4, "name": "AG Square", "km": 4.5, "lat": 20.3316, "lng": 85.7921 },
+        { "id": 5, "name": "Rasulgarh", "km": 6.1, "lat": 20.319, "lng": 85.787 },
+        { "id": 6, "name": "Mancheswar", "km": 7.8, "lat": 20.308, "lng": 85.7805 },
+        { "id": 7, "name": "Baramunda", "km": 9.3, "lat": 20.2992, "lng": 85.7748 },
+        { "id": 8, "name": "Khandagiri", "km": 11.0, "lat": 20.2876, "lng": 85.7669 },
+        { "id": 9, "name": "Patapur", "km": 12.8, "lat": 20.2754, "lng": 85.7581 }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Route 2 - Cuttack to Bhubaneswar",
+      "stops": [
+        { "id": 1, "name": "Badambadi", "km": 0, "lat": 20.4625, "lng": 85.8830 },
+        { "id": 2, "name": "OMP Square", "km": 1.5, "lat": 20.4560, "lng": 85.8780 },
+        { "id": 3, "name": "Trisulia", "km": 4.0, "lat": 20.4380, "lng": 85.8650 },
+        { "id": 4, "name": "Phulnakhara", "km": 7.2, "lat": 20.4150, "lng": 85.8500 },
+        { "id": 5, "name": "Nandankanan", "km": 12.0, "lat": 20.3960, "lng": 85.8240 },
+        { "id": 6, "name": "Patia", "km": 15.5, "lat": 20.3560, "lng": 85.8100 },
+        { "id": 7, "name": "Jaydev Vihar", "km": 18.0, "lat": 20.2960, "lng": 85.7950 },
+        { "id": 8, "name": "Master Canteen", "km": 22.0, "lat": 20.2720, "lng": 85.8400 }
+      ]
+    }
+  ],
+  "tickets": [
+    {
+      "id": 1,
+      "busNo": "OD05CB0251",
+      "captainId": "NC11049",
+      "routeId": 1,
+      "fromStopId": 1,
+      "toStopId": 9,
+      "fare": 22.5,
+      "service": "AC",
+      "date": "2026-06-14T18:18:00"
+    },
+    {
+      "id": 2,
+      "busNo": "OD05CB0317",
+      "captainId": "NC11032",
+      "routeId": 1,
+      "fromStopId": 1,
+      "toStopId": 5,
+      "fare": 15.0,
+      "service": "AC",
+      "date": "2026-06-14T17:30:00"
+    },
+    {
+      "id": 3,
+      "busNo": "OD05CB0198",
+      "captainId": "NC11087",
+      "routeId": 1,
+      "fromStopId": 4,
+      "toStopId": 9,
+      "fare": 12.0,
+      "service": "Non-AC",
+      "date": "2026-06-14T16:45:00"
+    },
+    {
+      "id": 4,
+      "busNo": "OD05CB0422",
+      "captainId": "NC11155",
+      "routeId": 1,
+      "fromStopId": 6,
+      "toStopId": 9,
+      "fare": 10.0,
+      "service": "Electric",
+      "date": "2026-06-14T19:00:00"
+    }
+  ]
+}
